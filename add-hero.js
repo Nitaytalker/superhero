@@ -24,11 +24,14 @@ function getInfoHero(event){
     let heros = window.localStorage.getItem("localHero");
     if(heros==null){
         heros =[];
+       
+    }else{
+        heros= JSON.parse(localStorage.getItem("localHero")) 
     }
 console.log(`${heros}`);
 // console.log(myHero);
     heros.push(myHero);
-    window.localStorage.setItem("localHero",heros);
+    window.localStorage.setItem("localHero",JSON.stringify(heros) );
     alert('your hero add to gallery');
     window.location.href = 'gallery.html';
     
