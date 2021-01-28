@@ -5,11 +5,7 @@ class Superhero{
         this.picture=picture;
     }
 }
-const allHeros = [
-    new Superhero("Supermen","Fly",'Superman_Vol_5_1_Textless.jpg'),
-    new Superhero("Spidermen","Spider",'spider-man.png'),
-    new Superhero("Thor", "Hummer", "thor.jpg")
-];
+const allHeros = [];
 
 function inStart(){
     let heros = window.localStorage.getItem("localHero");
@@ -23,7 +19,7 @@ function inStart(){
             hero = new Superhero(hero.name,hero.mainStrength,hero.picture);
             allHeros.push(hero);
         }
-        console.log(allHeros);
+        // console.log(allHeros);
 }
 
 function GoToAddHero(event){
