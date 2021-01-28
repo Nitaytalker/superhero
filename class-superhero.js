@@ -23,7 +23,7 @@ function inStart(){
             hero = new Superhero(hero.name,hero.mainStrength,hero.picture);
             allHeros.push(hero);
         }
-        console.log(allHeros);
+        // console.log(allHeros);
 }
 
 function GoToAddHero(event){
