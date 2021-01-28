@@ -5,6 +5,7 @@ for(const hero  of allHeros){
     // console.log(hero);
     // console.log(hero.name, hero.mainStrength, hero.picture);
 }
+
 let counter = -1;
 const globalma = [];
 function changeIamgeOfHero(hero){
