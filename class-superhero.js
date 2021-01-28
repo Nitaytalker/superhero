@@ -31,5 +31,20 @@ function GoToAddHero(event){
     window.location.href = 'add-hero.html';
 }
 
+function goGallery(){
+    window.location.href = 'gallery.html';
+}
+
+function goAddHero(){
+    window.location.href = 'add-hero.html';
+}
+
+function goEditHero(){
+    window.location.href = 'page3.html';
+}
+
+function goHeroFight(){
+    window.location.href = 'herovshero.html'
+}
 
 inStart()
