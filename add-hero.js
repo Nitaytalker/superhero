@@ -38,3 +38,8 @@ console.log(`${heros}`);
     
 }
 
+function backToPage1(event){
+    event.preventDefault();
+    window.location.href = 'gallery.html';
+}
+
