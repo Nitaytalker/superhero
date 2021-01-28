@@ -26,4 +26,10 @@ function inStart(){
         console.log(allHeros);
 }
 
+function GoToAddHero(event){
+    event.preventDefault();
+    window.location.href = 'add-hero.html';
+}
+
+
 inStart()
